@@ -97,7 +97,7 @@ nav {
 .bg-white {
     width: 100%;
     background-color: rgb(255, 255, 255);
-    height: 800px;
+    min-height: 800px;
 }
 
 .bg-grey {
@@ -121,7 +121,8 @@ nav {
     align-items: center;
 }
 
-.row-grey{width: 100%;
+.row-grey {
+    width: 100%;
     background-color: aquamarine;
     display: flex;
     align-items: center;
@@ -138,10 +139,47 @@ nav {
 }
 
 /* stili specifici per la sezione ultima grande del main */
-.big-container{display: flex;flex-direction: column;align-items: center;}
+.big-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.download-button{background-color:#8EA1E1;border-radius: 20px;
-color: white;} 
+.download-mac {
+    background-color: #8EA1E1;
+    border-radius: 20px;
+    color: white;
+}
 
 
+footer {
+    background-color: #23272A;
+    height: 700px;
+    width: 100%;
+}
 
+.footer-container {
+    width: 80%;
+    height: 90%;
+    background-color: #525d83;
+    margin: 0 auto;
+    display: flex;
+}
+
+.address-column {
+    width: 30%;
+    background-color: #8EA1E1;
+    
+}
+
+.info-row {
+    width: 70%;
+    
+    background-color: lightsalmon;
+    display: flex;
+}
+
+.info-row-small{background-color: red;
+width: 25%;
+
+border: 2px solid black;}
