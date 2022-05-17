@@ -173,7 +173,7 @@ footer {
 text-align: center;
 }
 
-.footer-text-headline{color: white;}
+.footer-text-headline{color: #7289DA;}
 
 .loghi{color: white;}
 
@@ -192,3 +192,15 @@ border: 2px solid black;}
 .info-title{color: #7289DA;}
 
 h5{color: white;}
+
+.row-reg{width: 100%;background-color:violet ;height: 50px;display: flex;justify-content:space-around;}
+
+.column-reg-log{width: 100px;
+    height: 40px;
+    background-color:#8EA1E1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color:white;
+    border-radius: 20px;
+border-top: 2px solid #3A445F;}
