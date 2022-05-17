@@ -1,1 +1,82 @@
-body{font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+body {font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 700px;
+    background-image: url(../img/jumbo.png);
+    background-size:contain;
+
+}
+
+
+
+h1{font-weight: 700;}
+h3{font-size: 25px;}
+
+
+
+/* classi navigatore header */
+nav {
+    background-color:#3161E0;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-button {
+    width: 100px;
+    height: 40px;
+    background-color:white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+
+}
+
+.nav-menu {
+    width: 500px;
+    height: 40px;
+    background-color:#3161E0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+
+.header-text {
+    text-align: center;
+    
+    width: 700px;
+    min-height: 500px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+}
+
+.download-button {
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+.download-button-white{background-color: white;
+border-radius: 20px;color: black;
+padding: 10px;
+font-size: 20px;
+}
+
+.download-button-black{background-color: black;
+    border-radius: 20px;color:white;
+    padding: 10px;
+    font-size: 20px;}
