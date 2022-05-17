@@ -154,7 +154,7 @@ nav {
 
 footer {
     background-color: #23272A;
-    height: 700px;
+    height: 500px;
     width: 100%;
 }
 
@@ -170,7 +170,12 @@ footer {
     width: 30%;
     background-color: #8EA1E1;
     
+text-align: center;
 }
+
+.footer-text-headline{color: white;}
+
+.loghi{color: white;}
 
 .info-row {
     width: 70%;
@@ -180,6 +185,10 @@ footer {
 }
 
 .info-row-small{background-color: red;
-width: 25%;
+width: 25%;text-align: center;
 
 border: 2px solid black;}
+
+.info-title{color: #7289DA;}
+
+h5{color: white;}
