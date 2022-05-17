@@ -1,27 +1,32 @@
-
-body {font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header {
-    min-height: 700px;
+
     background-image: url(../img/jumbo.png);
-    background-size:contain;
+    background-size: contain;
 
 }
 
 
 
-h1{font-weight: 700;}
-h3{font-size: 25px;}
+h1 {
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 25px;
+}
 
 
 
 /* classi navigatore header */
 nav {
-    background-color:#3161E0;
+    background-color: #3161E0;
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -31,7 +36,7 @@ nav {
 .nav-button {
     width: 100px;
     height: 40px;
-    background-color:white;
+    background-color: white;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -43,7 +48,7 @@ nav {
 .nav-menu {
     width: 500px;
     height: 40px;
-    background-color:#3161E0;
+    background-color: #3161E0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +61,7 @@ nav {
 
 .header-text {
     text-align: center;
-    
+
     width: 700px;
     min-height: 500px;
     margin: 0 auto;
@@ -65,18 +70,69 @@ nav {
 }
 
 .download-button {
-   
+
     display: flex;
     justify-content: space-around;
 }
 
-.download-button-white{background-color: white;
-border-radius: 20px;color: black;
-padding: 10px;
-font-size: 20px;
+.download-button-white {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
 }
 
-.download-button-black{background-color: black;
-    border-radius: 20px;color:white;
+.download-button-black {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
     padding: 10px;
-    font-size: 20px;}
+    font-size: 20px;
+}
+
+
+/* stile sezioni */
+
+.bg-white {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+}
+
+.bg-grey {
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    height: 800px;
+}
+
+
+.container {
+    width: 70%;
+    height: 70%;
+    background-color: lightcoral;
+    margin: 0 auto;
+}
+
+.row-white {
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+
+.row-grey{width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+.column-large {
+    background-color: burlywood;
+}
+
+.column-small {
+    background-color: yellowgreen;
+}
